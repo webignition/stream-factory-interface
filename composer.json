@@ -1,0 +1,30 @@
+{
+    "name": "webignition/web-resource-interfaces",
+    "description": "Interfaces for web resource models and services to retrieve and create them",
+    "keywords": ["model", "web-page", "sitemap", "json-document", "psr-7"],
+    "homepage": "https://github.com/webignition/web-resource-interfaces",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Cram",
+            "email": "jon@webignition.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "webignition\\WebResourceInterfaces\\": "src/"
+        }
+    },
+    "scripts": {
+        "cs": "./vendor/bin/phpcs src --colors --standard=PSR2"
+    },
+    "require": {
+        "php": ">=7.2.0",
+        "psr/http-message": "~1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "minimum-stability":"stable"
+}
