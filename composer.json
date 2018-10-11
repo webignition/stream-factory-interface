@@ -1,8 +1,8 @@
 {
-    "name": "webignition/web-resource-interfaces",
-    "description": "Interfaces for web resource models and services to retrieve and create them",
-    "keywords": ["model", "web-page", "sitemap", "json-document", "psr-7"],
-    "homepage": "https://github.com/webignition/web-resource-interfaces",
+    "name": "webignition/stream-factory-interface",
+    "description": "Interface for a factory to create Psr\\Http\\Message\\StreamInterface objects",
+    "keywords": ["stream", "psr-7"],
+    "homepage": "https://github.com/webignition/stream-factory-interfaces",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "webignition\\WebResourceInterfaces\\": "src/"
+            "webignition\\StreamFactoryInterface\\": "src/"
         }
     },
     "scripts": {
